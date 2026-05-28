@@ -885,11 +885,18 @@
                 
                 this.ctx.font = 'bold 22px "Segoe UI"';
                 this.ctx.fillStyle = '#fff';
-                this.ctx.fillText('Jogo desenvolvido para projeto acadêmico da faculdade.', this.width / 2, 300);
-                this.ctx.fillText('Tema: Conscientização Ecológica e Meio Ambiente.', this.width / 2, 350);
-                this.ctx.fillText('Desenvolvedor: Kayk Lima - Ra: 202002024', this.width / 2, 400);
+                this.ctx.textAlign = 'center';
+                this.ctx.fillText('Jogo desenvolvido para projeto acadêmico da faculdade.', this.width / 2, 260);
+                this.ctx.fillText('Tema: Conscientização Ecológica e Meio Ambiente.', this.width / 2, 300);
+                this.ctx.fillText('Desenvolvedores:', this.width / 2, 350);
+                this.ctx.font = '20px "Segoe UI"';
+                this.ctx.fillText('Kayk Lima - RA: 202002024', this.width / 2, 380);
+                this.ctx.fillText('Arthur Lopes dos Santos - RA: 225402024', this.width / 2, 410);
+                this.ctx.fillText('Malik de Laet Abashi - RA: 258312024', this.width / 2, 440);
+                this.ctx.fillText('Daniel Alves Caetano - RA: 51232848859', this.width / 2, 470);
                 
                 this.ctx.fillStyle = '#FFEB3B';
+                this.ctx.font = 'bold 22px "Segoe UI"';
                 this.ctx.fillText('Clique em qualquer lugar para voltar.', this.width / 2, 530);
             }
 
